@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="355.0" style="-fx-background-color: #a19999;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLaddController">
+   <children>
+      <Label layoutX="12.0" layoutY="14.0" text="Add new item to database" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtID" layoutX="31.0" layoutY="81.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="12.0" layoutY="60.0" text="ID">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="60.0" text="Title">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="60.0" text="Date added">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTitle" layoutX="88.0" layoutY="81.0" prefHeight="25.0" prefWidth="115.0" />
+      <DatePicker fx:id="date" layoutX="217.0" layoutY="81.0" prefHeight="25.0" prefWidth="134.0" />
+      <ChoiceBox fx:id="choiceBox" layoutX="62.0" layoutY="133.0" prefWidth="150.0" />
+      <Label layoutX="11.0" layoutY="135.0" text="Type">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbAuthor" layoutX="11.0" layoutY="201.0" text="Author">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPlayTime" layoutX="10.0" layoutY="265.0" text="Playing time">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbArtist" layoutX="8.0" layoutY="310.0" text="Artist">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbDirector" layoutX="6.0" layoutY="362.0" text="Director">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPlayTime" layoutX="109.0" layoutY="263.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="txtAuthor" layoutX="109.0" layoutY="199.0" />
+      <TextField fx:id="txtArtist" layoutX="109.0" layoutY="308.0" />
+      <TextField fx:id="txtDirector" layoutX="109.0" layoutY="360.0" />
+      <Button fx:id="btnAdd" layoutX="150.0" layoutY="398.0" mnemonicParsing="false" onAction="#addItem" prefHeight="44.0" prefWidth="90.0" text="Add ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancel" layoutX="256.0" layoutY="398.0" mnemonicParsing="false" onAction="#cancel" text="Cancel">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbID" layoutX="12.0" layoutY="84.0" text="T -">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

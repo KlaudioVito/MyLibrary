@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="541.0" prefWidth="827.0" style="-fx-background-color: #243f2a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="159.0" prefHeight="112.0" prefWidth="500.0" text="Library Database" textAlignment="CENTER" textFill="#8c8b94">
+         <font>
+            <Font name="System Bold Italic" size="56.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExport" alignment="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#export" prefHeight="57.0" prefWidth="139.0" text="Export Databse" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnQuit" alignment="CENTER" layoutX="710.0" layoutY="460.0" mnemonicParsing="false" onAction="#quit" prefHeight="57.0" prefWidth="88.0" text="Quit" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClear" layoutX="164.0" layoutY="14.0" mnemonicParsing="false" onAction="#clear" prefHeight="57.0" prefWidth="139.0" text="Clear Database">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="184.0" layoutY="289.0" mnemonicParsing="false" onAction="#add" prefHeight="44.0" prefWidth="145.0" text="Add Item" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="350.0" layoutY="289.0" mnemonicParsing="false" onAction="#remove" prefHeight="44.0" prefWidth="145.0" text="Remove Item">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="508.0" layoutY="289.0" mnemonicParsing="false" onAction="#get" prefHeight="44.0" prefWidth="145.0" text="Get Item">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
